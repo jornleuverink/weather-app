@@ -1,0 +1,14 @@
+<template>
+  <div id="app"></div>
+</template>
+
+<script>
+import WeatherApp from "./components/WeatherApp.vue";
+
+export default {
+  name: "App",
+  component: {
+    WeatherApp,
+  },
+};
+</script>
